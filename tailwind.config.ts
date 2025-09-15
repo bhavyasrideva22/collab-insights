@@ -22,10 +22,24 @@ export default {
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
+          soft: "hsl(var(--primary-soft))",
         },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
           foreground: "hsl(var(--secondary-foreground))",
+          soft: "hsl(var(--secondary-soft))",
+        },
+        progress: {
+          DEFAULT: "hsl(var(--progress))",
+          foreground: "hsl(var(--progress-foreground))",
+        },
+        insight: {
+          DEFAULT: "hsl(var(--insight))",
+          foreground: "hsl(var(--insight-foreground))",
+        },
+        wisdom: {
+          DEFAULT: "hsl(var(--wisdom))",
+          foreground: "hsl(var(--wisdom-foreground))",
         },
         destructive: {
           DEFAULT: "hsl(var(--destructive))",
@@ -57,6 +71,21 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+      },
+      backgroundImage: {
+        'gradient-primary': 'var(--gradient-primary)',
+        'gradient-insight': 'var(--gradient-insight)',
+        'gradient-wisdom': 'var(--gradient-wisdom)',
+        'gradient-subtle': 'var(--gradient-subtle)',
+      },
+      boxShadow: {
+        'soft': 'var(--shadow-soft)',
+        'medium': 'var(--shadow-medium)',
+        'strong': 'var(--shadow-strong)',
+      },
+      transitionTimingFunction: {
+        'smooth': 'var(--transition-smooth)',
+        'bounce': 'var(--transition-bounce)',
       },
       borderRadius: {
         lg: "var(--radius)",
